@@ -1,6 +1,5 @@
 import './styleNav.css'
 import React,{useState} from "react";
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return(
@@ -21,7 +20,6 @@ const Navbar = () => {
             <span></span>
             <span></span>
           </div>
-          {/* {`List ${isOpen && "open"}`}  onClick={ () => setIsOpen(!isOpen)} */}
       </nav>
   )
 }
