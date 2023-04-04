@@ -1,4 +1,4 @@
-import "./style/Carousel.css";
+import "./components/carousel/style/Carousel.css";
 import Footer from "./components/Footer";
 import Carousel from './components/carousel/Carousel';
 

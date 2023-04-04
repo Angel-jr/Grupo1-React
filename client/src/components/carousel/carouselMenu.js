@@ -1,8 +1,8 @@
-import baconCheddar from "../../assets/assets-menu/menu-baconCheddar.jpg";
-import extraCheddar from "../../assets/assets-menu/menu-extraCheddar.jpg";
-import morron from "../../assets/assets-menu/menu-morron.jpg";
-import pollo from "../../assets/assets-menu/menu-pollo.jpg";
-import rosa from "../../assets/assets-menu/menu-rosa.jpg";
+import baconCheddar from "../carousel/assets-menu/menu-baconCheddar.jpg";
+import extraCheddar from "../carousel/assets-menu/menu-extraCheddar.jpg";
+import morron from "../carousel/assets-menu/menu-morron.jpg";
+import pollo from "../carousel/assets-menu/menu-pollo.jpg";
+import rosa from "../carousel/assets-menu/menu-rosa.jpg";
 
 
 const menu = [
