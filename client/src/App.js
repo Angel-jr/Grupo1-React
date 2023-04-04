@@ -1,6 +1,8 @@
-import "./App.css";
+import "./components/carousel/style/Carousel.css";
 import Footer from "./components/Footer";
+import Carousel from './components/carousel/Carousel';
 import NavBar from "./components/Header/NavBar";
+
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <h1>About Us</h1>
       <h1>Call to action</h1>
       <h1>Buy Now</h1>
-      <h1>Carousel</h1>
+      <Carousel />
       <h1>Redes Sociales</h1>
       <Footer />
     </div>
