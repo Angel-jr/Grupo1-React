@@ -1,11 +1,13 @@
 import "./components/carousel/style/Carousel.css";
 import Footer from "./components/Footer";
 import Carousel from './components/carousel/Carousel';
+import NavBar from "./components/Header/NavBar";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>NavBar</h1>
+      <NavBar/>
       <h1>Imagen Con Boton</h1>
       <h1>Tarjetas</h1>
       <h1>Info</h1>
