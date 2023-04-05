@@ -1,5 +1,7 @@
 import "./App.css";
+import RedesSociales from "./components/RedesSociales";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <h1>Call to action</h1>
       <h1>Buy Now</h1>
       <h1>Carousel</h1>
-      <h1>Redes Sociales</h1>
+      <RedesSociales/>
       <Footer />
     </div>
   );
