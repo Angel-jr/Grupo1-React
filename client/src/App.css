@@ -1,0 +1,135 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/****** REDES SOCIALES */
+
+.container__RedesSociales{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin:auto;
+  margin-top: 100px;
+}
+
+.box__RedesSociales{
+  display: flex;
+  padding: 40px;
+  color: #000000;
+  Justify-content: space-around;
+  width: 100%;
+  padding: 1px 0px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg,
+               rgba(0,0,0,1) 0%,
+               rgba(255,243,0,1) 19%,
+               rgba(0,10,11,1) 95%);
+}
+
+.box__RedesSociales .h2{
+  margin-bottom: 30px;
+  color: #070707;
+  font-weight: 700;
+}
+
+.box__RedesSociales a{
+  margin-top: 10px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.box__RedesSociales .bi{
+  font-size:35px;
+}
+
+/****** FOOTER */
+
+footer {
+  padding: 1px 1px;
+  background: rgb(0,0,0);
+  background: linear-gradient(270deg,
+               rgba(0,0,0,1) 34%,
+               rgba(255,243,0,1) 50%,
+               rgba(0,10,11,1) 65%);
+}
+
+.footer__menu {
+  display: block;
+  width: 70%;
+  grid-template-columns: 1fr sfr;
+  padding: 50vh;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 8vw;
+}
+
+.footer-from{
+  display: inline-block;
+  width: 30%;
+  color: white;
+  margin-left: 60%;
+  
+}
+
+.controls {
+margin-bottom: 20px;
+background: #24303c;
+border-radius: 6px;
+padding: 10px;
+font-size: 18px;
+}
+
+.footer-from .botons {
+  width: 50%;
+  background-color: #ffe600;
+  text-decoration: underline;
+  border: none;
+  padding: 12px;
+  color: rgb(5, 5, 5);
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.footer-img{
+  padding-top: 2vw;
+  padding-inline: 3vw;
+  float: left;
+}
+
