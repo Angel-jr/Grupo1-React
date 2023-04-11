@@ -18,7 +18,7 @@ function App() {
       <h1>Call to action</h1>
       <h1>Buy Now</h1>
       <Carousel />
-      <h1>Redes Sociales</h1>
+      <RedesSociales />
       <Footer />
     </div>
   );

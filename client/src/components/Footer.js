@@ -1,18 +1,21 @@
 import logo from '../assets/img/logo.jpg';
 
 export default function Footer() {
-  return (
+  return ( 
     <footer>
-      <div className='footer__box'>
       <img src={logo} alt="logo" className="footer-img"/>
-      <ul className="footer__menu">
-        <li>INICIO</li>
-        <li>NOSOTROS</li>
-        <li>NUESTRA CARTA</li>
-        <li>GALERIA</li>
-        <li>PEDIDOS</li>
-        <li>RESERVAS</li>
+      
+      <div className='footer-menu'>
+      <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/">Nosotros</a></li>
+            <li><a href="/">Nuestra carta</a></li>
+            <li><a href="/">Galeria</a></li>
+            <li><a href="/">Pedidos</a></li>
+            <li><a href="/">Reservas</a></li>
       </ul>
+      </div>
+
       <div className="footer-from">
           <h2>FORMULARIO DE CONTACTO</h2>
           <form>
@@ -27,7 +30,6 @@ export default function Footer() {
             </p>
             <button className='botons' type="submit">Enviar</button>
           </form>
-        </div>
         </div>
     </footer>
   );
